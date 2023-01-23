@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/crescendo_entries"
+        android:entryValues="@array/crescendo_values"
+        android:key="crescendoTime"
+        android:summary="@string/crescendo_summary"
+        android:title="@string/crescendo_title" />
+
+    <Preference
+        android:key="ringtone"
+        android:summary="@string/ringtone_summary"
+        android:title="@string/ringtone_title" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="vibrateEnabled"
+        android:summary="@string/vibrate_summary"
+        android:title="@string/vibrate_title" />
+
+</PreferenceScreen>
